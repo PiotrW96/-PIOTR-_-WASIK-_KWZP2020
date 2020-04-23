@@ -8,3 +8,14 @@ C:\Users\PiotrekW\source\repos\KWZP_20_lab1\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.
 C:\Users\PiotrekW\source\repos\KWZP_20_lab1\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.csproj.CoreCompileInputs.cache
 C:\Users\PiotrekW\source\repos\KWZP_20_lab1\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.exe
 C:\Users\PiotrekW\source\repos\KWZP_20_lab1\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.pdb
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.csprojAssemblyReference.cache
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.Details.resources
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.Form1.resources
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.Properties.Resources.resources
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.csproj.GenerateResource.cache
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.csproj.CoreCompileInputs.cache
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.exe
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\obj\Debug\KWZP_20_lab1.pdb
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\bin\Debug\KWZP_20_lab1.exe.config
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\bin\Debug\KWZP_20_lab1.exe
+C:\Users\PiotrekW\Documents\Piotrek\STUDIA\KWZP\github_lab\KWZP_20_lab1\bin\Debug\KWZP_20_lab1.pdb

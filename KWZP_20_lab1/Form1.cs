@@ -37,7 +37,14 @@ namespace KWZP_20_lab1
 
 		private void btnChange_Click(object sender, EventArgs e)
 		{
-			this.Close();
+			Details details = new Details(textBox1.Text);
+			details.Show();
+
+		}
+
+		private void Form1_Load(object sender, EventArgs e)
+		{
+
 		}
 	}
 }
