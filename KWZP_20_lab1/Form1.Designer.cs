@@ -47,7 +47,7 @@
             // chcBox1
             // 
             this.chcBox1.AutoSize = true;
-            this.chcBox1.Location = new System.Drawing.Point(146, 162);
+            this.chcBox1.Location = new System.Drawing.Point(115, 166);
             this.chcBox1.Name = "chcBox1";
             this.chcBox1.Size = new System.Drawing.Size(172, 21);
             this.chcBox1.TabIndex = 1;
@@ -64,7 +64,6 @@
             this.lblText.Size = new System.Drawing.Size(340, 32);
             this.lblText.TabIndex = 2;
             this.lblText.Text = "Laboratoria KWZP 2020";
-           
             // 
             // textBox1
             // 
@@ -72,7 +71,6 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(360, 22);
             this.textBox1.TabIndex = 3;
-           
             // 
             // Form1
             // 
