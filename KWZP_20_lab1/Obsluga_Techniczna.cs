@@ -20,7 +20,6 @@ namespace KWZP_20_lab1
         public System.DateTime Data_Wykonania { get; set; }
         public int ID_Pracownika { get; set; }
     
-        public virtual Czesci_Obsluga Czesci_Obsluga { get; set; }
         public virtual Maszyny Maszyny { get; set; }
         public virtual Pracownicy Pracownicy { get; set; }
         public virtual Rodzaj_Obslugi Rodzaj_Obslugi { get; set; }

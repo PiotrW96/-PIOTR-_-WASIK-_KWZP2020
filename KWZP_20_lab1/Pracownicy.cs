@@ -18,13 +18,15 @@ namespace KWZP_20_lab1
         public Pracownicy()
         {
             this.Dokumentacje = new HashSet<Dokumentacje>();
-            this.Magazyn_Dostarczenia_Wewn = new HashSet<Magazyn_Dostarczenia_Wewn>();
-            this.Magazyn_Dostarczenia_Zewn = new HashSet<Magazyn_Dostarczenia_Zewn>();
+            this.Dostarczenia_Wewn = new HashSet<Dostarczenia_Wewn>();
+            this.Dostarczenia_Zewn = new HashSet<Dostarczenia_Zewn>();
             this.Obsluga_Techniczna = new HashSet<Obsluga_Techniczna>();
             this.Pracownicy_Zatrudnienie = new HashSet<Pracownicy_Zatrudnienie>();
             this.Proces_Technologiczny = new HashSet<Proces_Technologiczny>();
             this.Przydzial_Zasobow = new HashSet<Przydzial_Zasobow>();
+            this.Urlop = new HashSet<Urlop>();
             this.Zamowienia = new HashSet<Zamowienia>();
+            this.Zamowienia_Przydzial = new HashSet<Zamowienia_Przydzial>();
             this.Znajomosc_Jezykow = new HashSet<Znajomosc_Jezykow>();
         }
     
@@ -38,9 +40,9 @@ namespace KWZP_20_lab1
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Dokumentacje> Dokumentacje { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Magazyn_Dostarczenia_Wewn> Magazyn_Dostarczenia_Wewn { get; set; }
+        public virtual ICollection<Dostarczenia_Wewn> Dostarczenia_Wewn { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Magazyn_Dostarczenia_Zewn> Magazyn_Dostarczenia_Zewn { get; set; }
+        public virtual ICollection<Dostarczenia_Zewn> Dostarczenia_Zewn { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Obsluga_Techniczna> Obsluga_Techniczna { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
@@ -50,7 +52,11 @@ namespace KWZP_20_lab1
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Przydzial_Zasobow> Przydzial_Zasobow { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Urlop> Urlop { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Zamowienia> Zamowienia { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Zamowienia_Przydzial> Zamowienia_Przydzial { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Znajomosc_Jezykow> Znajomosc_Jezykow { get; set; }
     }

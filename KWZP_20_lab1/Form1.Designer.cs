@@ -64,7 +64,7 @@
             this.lblText.Size = new System.Drawing.Size(340, 32);
             this.lblText.TabIndex = 2;
             this.lblText.Text = "Laboratoria KWZP 2020";
-            this.lblText.Click += new System.EventHandler(this.label1_Click);
+           
             // 
             // textBox1
             // 
@@ -72,7 +72,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(360, 22);
             this.textBox1.TabIndex = 3;
-            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+           
             // 
             // Form1
             // 

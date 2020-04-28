@@ -18,7 +18,6 @@ namespace KWZP_20_lab1
         public int ID_Element { get; set; }
         public int Ilosc { get; set; }
     
-        public virtual Magazyn_Elementy Magazyn_Elementy { get; set; }
-        public virtual Obsluga_Techniczna Obsluga_Techniczna { get; set; }
+        public virtual Elementy Elementy { get; set; }
     }
 }

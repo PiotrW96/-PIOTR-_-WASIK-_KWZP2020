@@ -17,12 +17,13 @@ namespace KWZP_20_lab1
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2214:DoNotCallOverridableMethodsInConstructors")]
         public Zamowienia()
         {
+            this.Dostarczenia_Zewn = new HashSet<Dostarczenia_Zewn>();
+            this.Dostawcy_Oferta = new HashSet<Dostawcy_Oferta>();
             this.Faktury = new HashSet<Faktury>();
-            this.Magazyn_Dostarczenia_Zewn = new HashSet<Magazyn_Dostarczenia_Zewn>();
-            this.Magazyn_Zamowienia_Dostawy = new HashSet<Magazyn_Zamowienia_Dostawy>();
-            this.Proces_Produkcyjny = new HashSet<Proces_Produkcyjny>();
-            this.Proces_Zamowienie = new HashSet<Proces_Zamowienie>();
+            this.Zamowienia_Dostawy = new HashSet<Zamowienia_Dostawy>();
+            this.Zamowienia_Zawartosc = new HashSet<Zamowienia_Zawartosc>();
             this.Zamowienie_Produkt = new HashSet<Zamowienie_Produkt>();
+            this.Zamowienia_Przydzial = new HashSet<Zamowienia_Przydzial>();
         }
     
         public int ID_Zamowienia { get; set; }
@@ -33,18 +34,20 @@ namespace KWZP_20_lab1
         public Nullable<int> ID_Pracownika { get; set; }
     
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Dostarczenia_Zewn> Dostarczenia_Zewn { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Dostawcy_Oferta> Dostawcy_Oferta { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Faktury> Faktury { get; set; }
         public virtual Klienci Klienci { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Magazyn_Dostarczenia_Zewn> Magazyn_Dostarczenia_Zewn { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Magazyn_Zamowienia_Dostawy> Magazyn_Zamowienia_Dostawy { get; set; }
         public virtual Pracownicy Pracownicy { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Proces_Produkcyjny> Proces_Produkcyjny { get; set; }
+        public virtual ICollection<Zamowienia_Dostawy> Zamowienia_Dostawy { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<Proces_Zamowienie> Proces_Zamowienie { get; set; }
+        public virtual ICollection<Zamowienia_Zawartosc> Zamowienia_Zawartosc { get; set; }
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<Zamowienie_Produkt> Zamowienie_Produkt { get; set; }
+        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
+        public virtual ICollection<Zamowienia_Przydzial> Zamowienia_Przydzial { get; set; }
     }
 }

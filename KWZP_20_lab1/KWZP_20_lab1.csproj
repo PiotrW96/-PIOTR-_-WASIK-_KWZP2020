@@ -70,7 +70,37 @@
     <Compile Include="Dokumentacje.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
+    <Compile Include="Dostarczenia_Wewn.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dostarczenia_Zewn.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dostawcy_Oferta.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dostawcy_Zaopatrzenie.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Dostawy_Zawartosc.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Elementy.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Elementy_Cechy.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Elementy_Cechy_Slownik.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Elementy_Jednostki.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
     <Compile Include="Elementy_Proces.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Elementy_Typy.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
     <Compile Include="Etapy_W_Procesie.cs">
@@ -106,46 +136,7 @@
     <Compile Include="Koszt_Jednostkowy.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
-    <Compile Include="Magazyn_Dostarczenia_Wewn.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Dostarczenia_Zewn.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Dostawcy_Zaopatrzenie.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Elementy.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Elementy_Cechy_Slownik.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Elementy_Jednostki.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Elementy_Typy.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Kurierzy.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Miejsca.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Oferta.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Polki.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Polki_Rozmiary.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Umowy_Kurierzy.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Magazyn_Zamowienia_Dostawy.cs">
+    <Compile Include="Kurierzy.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
     <Compile Include="Maszyny.cs">
@@ -157,10 +148,22 @@
     <Compile Include="Material_Na_Produkcji.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
+    <Compile Include="Miejsca.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
     <Compile Include="Obsluga_Techniczna.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
+    <Compile Include="Oferta.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
     <Compile Include="Pensja.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Polki.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Polki_Rozmiary.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
     <Compile Include="Pracownicy.cs">
@@ -178,7 +181,7 @@
     <Compile Include="Proces_Zamowienie.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
-    <Compile Include="Produkty.cs">
+    <Compile Include="Produkt.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
@@ -207,9 +210,6 @@
     <Compile Include="Stanowisko.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
-    <Compile Include="sysdiagrams.cs">
-      <DependentUpon>Szwalnia.tt</DependentUpon>
-    </Compile>
     <Compile Include="Szwalnia.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -225,13 +225,34 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>Szwalnia.edmx</DependentUpon>
     </Compile>
+    <Compile Include="Umowy_Kurierzy.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Urlop.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="vZatrudnienie.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
     <Compile Include="Zamowienia.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienia_Dostawy.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienia_Przydzial.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zamowienia_Zawartosc.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
     <Compile Include="Zamowienie_Produkt.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
     <Compile Include="Zapotrzebowanie_Opakowan.cs">
+      <DependentUpon>Szwalnia.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Zawartosc.cs">
       <DependentUpon>Szwalnia.tt</DependentUpon>
     </Compile>
     <Compile Include="Znajomosc_Jezykow.cs">
@@ -274,19 +295,19 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="Szwalnia.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <LastGenOutput>Szwalnia.Context.cs</LastGenOutput>
       <DependentUpon>Szwalnia.edmx</DependentUpon>
+      <LastGenOutput>Szwalnia.Context.cs</LastGenOutput>
     </Content>
     <Content Include="Szwalnia.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>Szwalnia.edmx</DependentUpon>
       <LastGenOutput>Szwalnia.cs</LastGenOutput>
     </Content>
-  </ItemGroup>
-  <ItemGroup>
-    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

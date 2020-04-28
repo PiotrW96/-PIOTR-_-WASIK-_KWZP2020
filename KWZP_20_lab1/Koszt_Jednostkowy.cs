@@ -14,9 +14,10 @@ namespace KWZP_20_lab1
     
     public partial class Koszt_Jednostkowy
     {
+        public int ID_Koszt_Jednostkowy { get; set; }
         public Nullable<int> ID_Element { get; set; }
         public int Koszt_Produkcji { get; set; }
     
-        public virtual Magazyn_Elementy Magazyn_Elementy { get; set; }
+        public virtual Elementy Elementy { get; set; }
     }
 }

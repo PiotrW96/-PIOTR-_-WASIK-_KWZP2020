@@ -21,7 +21,7 @@ namespace KWZP_20_lab1
         }
     
         public int ID_Dokumentacji { get; set; }
-        public int ID_Rodzaj { get; set; }
+        public int ID_Rodzaj_Dokumentacji { get; set; }
         public int ID_Pracownika { get; set; }
         public System.DateTime Data_Wykonania { get; set; }
     

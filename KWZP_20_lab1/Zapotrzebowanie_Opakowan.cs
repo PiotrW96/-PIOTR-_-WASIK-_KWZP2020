@@ -14,13 +14,14 @@ namespace KWZP_20_lab1
     
     public partial class Zapotrzebowanie_Opakowan
     {
+        public int ID_Zapotrzebowanie_opakowan { get; set; }
         public int ID_Procesu_Produkcyjnego { get; set; }
         public int ID_Element { get; set; }
         public int Liczba { get; set; }
         public Nullable<bool> Czy_Otrzymano { get; set; }
         public string Uwagi { get; set; }
     
-        public virtual Magazyn_Elementy Magazyn_Elementy { get; set; }
+        public virtual Elementy Elementy { get; set; }
         public virtual Proces_Produkcyjny Proces_Produkcyjny { get; set; }
     }
 }

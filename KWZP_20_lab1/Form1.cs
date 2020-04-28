@@ -12,23 +12,14 @@ namespace KWZP_20_lab1
 {
 	public partial class Form1 : Form
 	{
+		private SzwalniaEntities db;
 		public Form1()
 		{
 			InitializeComponent();
+			btnChange.Enabled = false;
+			db = new SzwalniaEntities();
 		}
 
-		private void label1_Click(object sender, EventArgs e)
-		{
-
-		}
-
-		private void textBox1_TextChanged(object sender, EventArgs e)
-		{
-			if (textBox1.TextLength > 0)
-			{
-				btnChange.Text = textBox1.Text;
-			}
-		}
 
 		private void chcBox1_CheckedChanged(object sender, EventArgs e)
 		{
@@ -37,7 +28,7 @@ namespace KWZP_20_lab1
 
 		private void btnChange_Click(object sender, EventArgs e)
 		{
-			Details details = new Details(textBox1.Text);
+			Details details = new Details(db, textBox1.Text);
 			details.Show();
 
 		}

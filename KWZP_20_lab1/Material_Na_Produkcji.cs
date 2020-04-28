@@ -14,14 +14,15 @@ namespace KWZP_20_lab1
     
     public partial class Material_Na_Produkcji
     {
+        public int ID_Material_Na_Produkcji { get; set; }
         public int ID_Procesu_Produkcyjnego { get; set; }
         public int ID_Element { get; set; }
         public double Liczba { get; set; }
         public int ID_Jednostka { get; set; }
         public Nullable<double> Odpad { get; set; }
     
-        public virtual Magazyn_Elementy Magazyn_Elementy { get; set; }
-        public virtual Magazyn_Elementy_Jednostki Magazyn_Elementy_Jednostki { get; set; }
+        public virtual Elementy Elementy { get; set; }
+        public virtual Elementy_Jednostki Elementy_Jednostki { get; set; }
         public virtual Proces_Produkcyjny Proces_Produkcyjny { get; set; }
     }
 }
